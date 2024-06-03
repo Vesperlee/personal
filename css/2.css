@@ -1,0 +1,63 @@
+@keyframes dropdown {
+from {transform: translate(0,-100%); opacity: 1.0;}
+to {transform: translate(0,0px); opacity: 1.0;}
+}
+
+@keyframes riseup {
+from {transform: translate(0,100%); opacity: 1.0;}
+to {transform: translate(0,0px); opacity: 1.0;}
+}
+
+.droptext {
+    font-size: 100px;
+    animation: dropdown 1.5s ease forwards;
+}
+
+.bottombar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    background-color:chartreuse; 
+    animation: riseup 1.5s ease forwards;
+}
+
+.circle1 {
+    height: 500px;
+    width: 500px;
+    opacity: 0;
+    border-radius: 50%;
+    background-color:yellow;
+    animation: dropdown 2s ease forwards;
+}
+.circle2 {
+    height: 550px;
+    width: 550px;
+    opacity: 0;
+    border-radius: 50%;
+    background-color:rgb(255, 217, 0);
+    animation: dropdown 2s ease forwards;
+}
+.circle3 {
+    height: 650px;
+    width: 650px;
+    opacity: 0;
+    border-radius: 50%;
+    background-color:rgb(255, 153, 0);
+    animation: dropdown 2s ease forwards;
+}
+.circle4 {
+    height: 800px;
+    width: 800px;
+    opacity: 0;
+    border-radius: 50%;
+    background-color:rgb(255, 115, 0);
+    animation: dropdown 2s ease forwards;
+}
+
+.inner {
+    position: absolute;
+  }
