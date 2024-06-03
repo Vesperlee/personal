@@ -29,8 +29,8 @@
     <h2 style="font-size:45px; display: flex; flex-direction: row; align-items: center; justify-content: center;"> Welcome!</h2>
     <h3 style="font-size:40px; display: flex; flex-direction: row; align-items: center; justify-content: center;">Choose a path...</h3>
     <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-        <button onclick="window.location.href='1.html';" style="width: 450px; height: 200px; font-size: 50px; cursor:pointer;" title="Next website design"> 
-            <!--- Go to /page/dev1.html --->
+        <button onclick="window.location.href='1';" style="width: 450px; height: 200px; font-size: 50px; cursor:pointer;" title="Next website design"> 
+            <!--- Go to /page/1.html --->
             Website Design Version Journey
         </button>
         &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
@@ -40,8 +40,7 @@
         </button>
     </div>
     <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; padding-top: 40px;">
-            <!--- Should commit random function later on. --->
-    <button onclick="randomVideo()" style="width: 450px; height: 200px; font-size: 50px; cursor:pointer;">
+    <button onclick="video()" style="width: 450px; height: 200px; font-size: 50px; cursor:pointer;">
         Secret
     </button>
     </div>
@@ -57,38 +56,9 @@
     </div>
 </tail>
 <script>
-    function randomVideo()
+    function video()
     {
-        switch(Math.floor(Math.random() * 10)) {
-            case 1:
-                link = "https://www.youtube.com/watch?v=ruXMtD6LM1s" // Paradigm II
-                break
-            case 2:
-                link = "https://www.youtube.com/watch?v=QwLvrnlfdNo" // Josh Hutcherson
-                break
-            case 3:
-                link = "https://www.youtube.com/watch?v=_fvNuap9l-Y" // Cat food
-                break
-            case 4:
-                link = "https://www.youtube.com/watch?v=L9XyOobSRJ0" // Ode of the cog
-                break
-            case 5:
-                link = "https://www.youtube.com/watch?v=Ez-qiX8UDg0" // Reverberation ensemble
-                break
-            case 6:
-                link = "https://www.youtube.com/watch?v=CaTX0pt3uyg" // Murders
-                break
-            case 7:
-                link = "https://www.youtube.com/watch?v=AYiyBk8GIVE" // Roland
-                break
-            case 8:
-                link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" // RickRoll
-                break
-            case 9:
-                link = "https://www.youtube.com/watch?v=s29fcv5E52Y" // A good song !dies
-                break
-        }
-
+        link = "https://www.youtube.com/watch?v=OcmBowQsVrg" // Inexplicable
         window.open(link)
     }
     
