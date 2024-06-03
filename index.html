@@ -9,7 +9,7 @@
 </head>
 <body>
     <div style="padding-left: 10%; font-size: 18px;">
-        vesperlee.com <!--To insert link when website is up.-->
+        <a href="https://vesperlee.com"; target="_blank"> vesperlee.com </a>
         <div style="float: right; padding-right: 10%;">
             <a href="mailto:vesper@vesperlee.com"; target="_blank">
                 vesper@vesperlee.com
@@ -29,7 +29,7 @@
     <h2 style="font-size:45px; display: flex; flex-direction: row; align-items: center; justify-content: center;"> Welcome!</h2>
     <h3 style="font-size:40px; display: flex; flex-direction: row; align-items: center; justify-content: center;">Choose a path...</h3>
     <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-        <button onclick="window.location.href='1';" style="width: 450px; height: 200px; font-size: 50px; cursor:pointer;" title="Next website design"> 
+        <button onclick="window.location.href='./1';" style="width: 450px; height: 200px; font-size: 50px; cursor:pointer;" title="Next website design"> 
             <!--- Go to /page/1.html --->
             Website Design Version Journey
         </button>
@@ -40,6 +40,7 @@
         </button>
     </div>
     <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; padding-top: 40px;">
+            <!--- Should commit The Cube later on. --->
     <button onclick="video()" style="width: 450px; height: 200px; font-size: 50px; cursor:pointer;">
         Secret
     </button>
@@ -56,11 +57,9 @@
     </div>
 </tail>
 <script>
-    function video()
-    {
-        link = "https://www.youtube.com/watch?v=OcmBowQsVrg" // Inexplicable
+    function randomVideo(){
+        link = "https://www.youtube.com/watch?v=OcmBowQsVrg" // Later on, redirect to The Cube
         window.open(link)
     }
-    
 </script>
 </html>
