@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VesperWeb</title>
+    <link rel="icon" type="image/x-icon" href="/media/vesperlogo.png">
+
+</head>
+<body>
+    <div style="padding-left: 10%; font-size: 18px;">
+        vesperlee.com <!--To insert link when website is up.-->
+        <div style="float: right; padding-right: 10%;">
+            <a href="mailto:vesper@vesperlee.com"; target="_blank">
+                vesper@vesperlee.com
+            </a> <br>
+            <a href="https://www.linkedin.com/in/vesperlee/"; target="_blank">
+                linkedin.com/in/vesperlee
+            </a>
+        </div> <br>
+         <a href="https://github.com/vesperlee"; target="_blank">
+        github.com/vesperlee
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+        <h1 style="font-size:50px;"> Vesper Lee </h1>
+    </div>
+    <hr>
+    <h2 style="font-size:45px; display: flex; flex-direction: row; align-items: center; justify-content: center;"> Welcome!</h2>
+    <h3 style="font-size:40px; display: flex; flex-direction: row; align-items: center; justify-content: center;">Choose a path...</h3>
+    <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+        <button onclick="window.location.href='1.html';" style="width: 450px; height: 200px; font-size: 50px; cursor:pointer;" title="Next website design"> 
+            <!--- Go to /page/dev1.html --->
+            Website Design Version Journey
+        </button>
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <button onclick="" style="width: 450px; height: 200px; font-size: 50px; cursor:pointer;" title="Final website design">
+            <!--- Go to /page/resume.html --->
+            Straight To <br> Final Version
+        </button>
+    </div>
+    <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; padding-top: 40px;">
+            <!--- Should commit random function later on. --->
+    <button onclick="randomVideo()" style="width: 450px; height: 200px; font-size: 50px; cursor:pointer;">
+        Secret
+    </button>
+    </div>
+</body>
+<tail>
+    <br>
+        <br>
+    <div style="position: absolute; bottom: 0; left: 0; width: 95%; text-align: left; padding-left: 10px;">
+    Site Version (1)
+    </div>
+    <div style="position: absolute; bottom: 0; right: 0; width: 95%; text-align: right; padding-right: 10px;">
+    18th May 2024
+    </div>
+</tail>
+<script>
+    function randomVideo()
+    {
+        switch(Math.floor(Math.random() * 10)) {
+            case 1:
+                link = "https://www.youtube.com/watch?v=ruXMtD6LM1s" // Paradigm II
+                break
+            case 2:
+                link = "https://www.youtube.com/watch?v=QwLvrnlfdNo" // Josh Hutcherson
+                break
+            case 3:
+                link = "https://www.youtube.com/watch?v=_fvNuap9l-Y" // Cat food
+                break
+            case 4:
+                link = "https://www.youtube.com/watch?v=L9XyOobSRJ0" // Ode of the cog
+                break
+            case 5:
+                link = "https://www.youtube.com/watch?v=Ez-qiX8UDg0" // Reverberation ensemble
+                break
+            case 6:
+                link = "https://www.youtube.com/watch?v=CaTX0pt3uyg" // Murders
+                break
+            case 7:
+                link = "https://www.youtube.com/watch?v=AYiyBk8GIVE" // Roland
+                break
+            case 8:
+                link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" // RickRoll
+                break
+            case 9:
+                link = "https://www.youtube.com/watch?v=s29fcv5E52Y" // A good song !dies
+                break
+        }
+
+        window.open(link)
+    }
+    
+</script>
+</html>
